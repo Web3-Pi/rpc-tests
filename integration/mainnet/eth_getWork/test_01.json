@@ -10,8 +10,8 @@
             "id":1,
             "jsonrpc":"2.0",
             "error":{
-                "code":-32000,
-                "message":"not supported, consensus engine is not ethash"
+              "code":-32601,
+              "message":"the method eth_getWork does not exist/is not available"
             }
         }
     }

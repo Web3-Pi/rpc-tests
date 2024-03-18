@@ -7,13 +7,13 @@
         "request": {
             "jsonrpc":"2.0",
             "method":"eth_getBalance",
-            "params":["0xcf1dc766fc2c62bef0b67a8de666c8e67acf35f6", "0x1036640"],
+            "params":["0xcf1dc766fc2c62bef0b67a8de666c8e67acf35f6", "latest"],
             "id":3
         },
         "response": {
             "jsonrpc":"2.0",
             "id":3,
-            "result": "0x2703b117035bf256"
+            "result": "0x46f5e69c5c82ad00"
         }
     }
 ]

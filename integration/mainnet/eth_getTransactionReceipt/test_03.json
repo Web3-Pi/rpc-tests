@@ -13,7 +13,8 @@
         "response": {
             "id": 1,
             "jsonrpc": "2.0",
-            "blockHash": "0xa2acb9a957dfb3b8877d534d411980166a6a5ba33358ce133652d29a3719aa56",
+            "result": {
+              "blockHash": "0xa2acb9a957dfb3b8877d534d411980166a6a5ba33358ce133652d29a3719aa56",
               "blockNumber": "0xfbc520",
               "contractAddress": null,
               "cumulativeGasUsed": "0xbeeb05",
@@ -43,6 +44,7 @@
               "transactionHash": "0x4b17cb89d104f8b6d9a0ec3d5bdb306b5a5be0f9c894bd87a03f7a1dc44932a8",
               "transactionIndex": "0x94",
               "type": "0x2"
+            }
         }
     }
 ]
