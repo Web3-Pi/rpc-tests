@@ -1,0 +1,20 @@
+[
+   {
+        "test": {
+           "reference": "",
+           "description": ""
+        },
+        "request":{
+            "jsonrpc":"2.0",
+            "method":"eth_newFilter",
+            "params":[{"fromBlock":"0x1290BCD","toBlock":"0x1290BCF","address":"0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429","topics":[]}],
+            "id":1
+        },
+        "response":{
+            "jsonrpc":"2.0",
+            "id":1,
+            "result":null
+        }
+    }
+]
+
