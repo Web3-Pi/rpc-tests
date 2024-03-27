@@ -527,7 +527,8 @@ def dump_jsons(dump_json, silk_file, exp_rsp_file, output_dir, response, expecte
 def execute_request(transport_type: str, jwt_auth, encoded, request_dumps, target: str, verbose_level: int, compression: bool):
     """ execute request on server identified by target """
     if transport_type == "http":
-        cmd = '''curl --silent -X GET -H "Content-Type: application/json" ''' + jwt_auth + ''' --data \'''' + request_dumps + '''\' ''' + target
+        cmd = '''curl --silent -X POST -H "Content-Type: application/json" ''' + jwt_auth + ''' --data \'''' + request_dumps + '''\' ''' + target
+        #
         result = os.popen(cmd).read()
     else:
         ws_target = "ws://" + target  # use websocket
