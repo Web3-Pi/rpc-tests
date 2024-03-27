@@ -8,11 +8,11 @@
             "jsonrpc":"2.0",
             "method":"eth_chainId",
             "params":[],
-            "id":"1"
+            "id":"abc"
         },
         "response":{
             "jsonrpc":"2.0",
-            "id":"1",
+            "id":"abc",
             "result":"0x1"
         }
     }
